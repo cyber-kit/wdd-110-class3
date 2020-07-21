@@ -1,0 +1,85 @@
+.hero {}
+.container {
+	width: 80%;
+	margin: 0px auto;
+}
+.class-no h2 {
+    text-align: center;
+    background: rgb(0,212,255);
+    background: radial-gradient(circle, rgba(0,212,255,0.4654236694677871) 23%, rgba(9,111,121,0) 51%);
+}
+.user-area {
+	width: 30%;
+	float: left;
+	margin-right: 5%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.user-area:nth-child(3) {
+    margin-right: 0px;
+}
+.user-area img {
+	width: 150px;
+    border-radius: 40px 5px;
+    transition: 1.3s;
+}
+.user-area img:hover {
+    border-radius: 5px 40px;
+    box-shadow: 8px 7px 7px 1px;
+    transition: 1.3s;
+}
+.user-area h1 {
+	margin-bottom: 5px;
+}
+.user-area h4 {
+	margin: 2px auto;
+}
+.user-area p {}
+.user-area a {
+    text-decoration: none;
+	padding: 5px 29px;
+	font-size: 17px;
+    border-radius: 5px 35px;
+    background-color: green;
+    font-weight: 800;
+    transition: 1s;
+}
+.user-area a:hover {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 35px 5px;
+    transition: 1s;
+}
+
+.ledp {}
+.container {}
+.ledp-logo {
+	display: block;
+	margin: 0px auto;
+	width: 33%;
+}
+.flag {
+    overflow: hidden;
+}
+.rectangle-area {
+	width: 450px;
+	height: 205px;
+	background-color: green;
+	display: block;
+    margin: 0px auto;
+    transition: 1s;
+}
+.rectangle-area:hover {
+	box-shadow: 4px 5px 14px 0px;
+	transition: 1s;
+}
+.circle-area {
+	width: 125px;
+	height: 126px;
+	background-color: red;
+	border-radius: 50%;
+	position: relative;
+	left: 470px;
+	bottom: 162px;
+}
